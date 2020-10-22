@@ -216,6 +216,18 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="imagenes\2701088-128.png" />
+    <Content Include="imagenes\acerca de nostros.png" />
+    <Content Include="imagenes\graduandos.jpg" />
+    <Content Include="imagenes\LOGO4.png" />
+    <Content Include="imagenes\mision.png" />
+    <Content Include="imagenes\pbx.png" />
+    <Content Include="imagenes\solicitud.jpg" />
+    <Content Include="imagenes\solicitud.png" />
+    <Content Include="imagenes\sucurusal.png" />
+    <Content Include="imagenes\unnamed.png" />
+    <Content Include="imagenes\vivienda.jpg" />
+    <Content Include="imagenes\what.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Datos\Model1.edmx">
@@ -274,7 +286,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="imagenes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
