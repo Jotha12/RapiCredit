@@ -3,16 +3,52 @@
     padding: 0;
 }
 
-
-
 .cont {
+    width: 90%;
+    max-width: 1900px;
+    margin: 20px auto;
+    padding:10px;
+   border-radius:15px;
+}
+.cuadro {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+.txt{
+    padding:20px;
+    font-size:x-large;
+    text-align:justify;
+}
+.txtm {
+    font-size: x-large;
+    text-align:center;
+}
+.txtv {
+    font-size: x-large;
+    text-align:center;
+}
+.vision{
+    width:400px;
+    
+    
+}
+.mision {
+    width: 400px;
+    
+    
+    
+}
+
+/*.cont {
     width: 97%;
     max-width: 1900px;
     margin: 20px auto;
     display: grid;
     grid-gap: 20px;
     grid-template-rows: repeat(6, auto);
-}
+}*/
 
 .cuadro {
     background-color: white;
