@@ -202,6 +202,8 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\index.css" />
+    <Content Include="Content\QSomos.css" />
     <Content Include="Datos\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -219,12 +221,13 @@
     <Content Include="imagenes\2701088-128.png" />
     <Content Include="imagenes\acerca de nostros.png" />
     <Content Include="imagenes\graduandos.jpg" />
+    <Content Include="imagenes\login.png" />
     <Content Include="imagenes\LOGO4.png" />
     <Content Include="imagenes\mision.png" />
     <Content Include="imagenes\pbx.png" />
-    <Content Include="imagenes\solicitud.jpg" />
+    <Content Include="imagenes\prestamos.png" />
     <Content Include="imagenes\solicitud.png" />
-    <Content Include="imagenes\sucurusal.png" />
+    <Content Include="imagenes\sucursales %282%29.png" />
     <Content Include="imagenes\unnamed.png" />
     <Content Include="imagenes\vivienda.jpg" />
     <Content Include="imagenes\what.png" />

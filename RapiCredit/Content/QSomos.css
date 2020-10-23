@@ -1,0 +1,51 @@
+﻿{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cont {
+    width: 97%;
+    max-width: 1900px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(6, auto);
+}
+
+.cuadro {
+    background-color: white;
+    color: black;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.titulo {
+    text-align: center;
+}
+.wha {
+    float: right;
+}
+
+.pbx {
+    float: left;
+}
+
+.button {
+    padding: 0;
+}
+
+    .button li {
+        display: inline;
+    }
+
+        .button li a {
+            font-family: 'Times New Roman';
+            font-size: 20px;
+            text-decoration: none;
+            float: left;
+            padding: 10px;
+            color: #fff;
+        }
+
+

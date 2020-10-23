@@ -1,4 +1,81 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Principal</title>
+    <link href="~/Content/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="cont">
+        <header class="titulo">
+            <h1>Bienvenidos a Rapi-Credit</h1>
+        </header>
+        <hr />
+
+        <div class="cuadro">
+
+            <div class="card1">
+                <img src="~/imagenes/acerca de nostros.png" class="img-thumbnail" width="150" height="150" onclick="location='http://localhost:55668/Home/About'">
+                <div class="card-body">
+                    <button type="submit" onclick="location='http://localhost:55668/Home/About'">Quienes Somos</button>
+                </div>
+
+            </div>
+            <div class="card2">
+                <img src="~/imagenes/login.png" class="img-thumbnail" width="150" height="150">
+                <div class="card-body">
+                    <button type="submit" onclick="location='https://localhost:44348/Login/Login'">Inicio de Sesión</button>
+                </div>
+
+            </div>
+            <div class="card3">
+                <img src="~/imagenes/prestamos.png" class="img-thumbnail" width="150" height="150">
+                <div class="card-body">
+                    <button type="submit" onclick="location='https://localhost:44348/QSomos/QSomos'">Préstamos</button>
+                </div>
+
+            </div>
+            <div class="card4">
+                <img src="~/imagenes/solicitud.png" class="img-thumbnail" width="150" height="150">
+                <div class="card-body">
+                    <button type="submit" onclick="location='https://localhost:44348/QSomos/QSomos'">Solicitud de Crédito</button>
+                </div>
+
+            </div>
+            <div class="card5">
+                <img src="~/imagenes/sucursales (2).png" class="img-thumbnail" width="150" height="150">
+                <div class="card-body">
+                    <button type="submit" onclick="location='https://localhost:44348/QSomos/QSomos'">Sucursales</button>
+                </div>
+
+            </div>
+
+       
+            <div class="img1">
+
+                <img src="~/imagenes/graduandos.jpg" alt="MDN">
+            </div>
+            <div class="img2">
+
+            </div>
+
+        </div>
+        <div class="pbx">
+            <h2>PBX +502 2200-2200</h2>
+        </div>
+        <div class="wha">
+
+            <h2> +502 5190-2020</h2>
+        </div>
+               
+    </div>
+    
+</body>
+</html>
+
 
