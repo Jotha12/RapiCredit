@@ -178,6 +178,7 @@
     <Compile Include="Controllers\EjVentasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -204,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Abono\abono_css.css" />
+    <Content Include="Content\Admin.css" />
     <Content Include="Content\AutorizacionDePrestamo\AutorizacionDePrestamo.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -212,6 +214,7 @@
     <Content Include="Content\CrearCuentaCliente\CrearCuentaCliente.css" />
     <Content Include="Content\index.css" />
     <Content Include="Content\QSomos.css" />
+    <Content Include="Content\solicitud.css" />
     <Content Include="Datos\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -309,10 +312,12 @@
     <Content Include="Views\Abono\Abono.cshtml" />
     <Content Include="Views\AutorizacionDePrestamo\AutorizacionDePrestamo.cshtml" />
     <Content Include="Views\CrearCuentaCliente\CrearCuentaCliente.cshtml" />
+    <Content Include="Views\Solicitud\Solicitud.cshtml" />
+    <Content Include="Views\Home\Administrado.cshtml" />
+    <Content Include="Views\Administrador\Administrador.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Administrador\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

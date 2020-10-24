@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Administrado";
+}
+
+<h2>Administrado</h2>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Principal</title>
+    <link href="~/Content/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="conte">
+
+        <ul class="na">
+            <li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+
+        </ul>
+        <button>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</button>
+    </div>
+
+
+</body>
+</html>

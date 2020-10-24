@@ -1,0 +1,17 @@
+﻿h2{
+    text-align:center;
+}
+.cuadro{
+    height:600px;
+    width:1150px;
+    background-size:auto;
+    background-color:azure;
+    border-radius:15px;
+}
+.wha {
+    float: right;
+}
+
+.pbx {
+    float: left;
+}
