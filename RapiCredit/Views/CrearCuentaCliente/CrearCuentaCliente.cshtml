@@ -1,0 +1,145 @@
+﻿
+@{
+    ViewBag.Title = "CrearCuentaCliente";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - RapiCredit</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/site.css" rel="stylesheet" />
+    <link href="~/Content/CrearCuentaCliente/CrearCuentaCliente.css" rel="stylesheet" />
+
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+
+
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container">
+
+            <div class="navbar-header">
+
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+
+
+                <a class="navbar-brand" href="/">RapiCredit</a><img src="/imagenes/LOGO4.png" width="70" height="70" onclick="location='http://localhost:55668/Home'" />
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/Home/About">Quienes somos</a></li>
+                    <li><a href="/Home/Contact">Sucursales</a></li>
+                    <li><a href="/Home/Contact">Pr&#233;stamos</a></li>
+                    <li><a href="/Home/Contact">Solicitud de Pr&#233;stamo</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="/Account/Login" id="loginLink">Iniciar sesi&#243;n</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container body-content">
+
+
+        <!DOCTYPE html>
+
+        <html>
+        <head>
+            <meta name="viewport" content="width=device-width" />
+            <title>Crear Cuenta Cliente</title>
+            <link href="/Content/index.css" rel="stylesheet" type="text/css" />
+        </head>
+
+        <body>
+            <div class="cont">
+                <header class="titulo">
+                    <h1>Crear Cuenta Cliente</h1>
+                </header>
+                <hr />
+
+                <div class="cuadro">
+
+                    <div class="card1">
+                        <img src="/imagenes/acerca de nostros.png" class="img-thumbnail" width="150" height="150" onclick="location='http://localhost:55668/Home/About'">
+                        <div class="card-body">
+                            <button type="submit" onclick="location='http://localhost:55668/Home/About'">Quienes Somos</button>
+                        </div>
+
+                    </div>
+                    <div class="card2">
+                        <img src="/imagenes/login.png" class="img-thumbnail" width="150" height="150" onclick="location='http://localhost:55668/Account/Login'">
+                        <div class="card-body">
+                            <button type="submit" onclick="location='http://localhost:55668/Account/Login'">Inicio de Sesión</button>
+                        </div>
+
+                    </div>
+                    <div class="card3">
+                        <img src="/imagenes/prestamos.png" class="img-thumbnail" width="150" height="150">
+                        <div class="card-body">
+                            <button type="submit" onclick="location='https://localhost:44348/QSomos/QSomos'">Préstamos</button>
+                        </div>
+
+                    </div>
+                    <div class="card4">
+                        <img src="/imagenes/solicitud.png" class="img-thumbnail" width="150" height="150">
+                        <div class="card-body">
+                            <button type="submit" onclick="location='https://localhost:44348/QSomos/QSomos'">Solicitud de Crédito</button>
+                        </div>
+
+                    </div>
+                    <div class="card5">
+                        <img src="/imagenes/sucursales (2).png" class="img-thumbnail" width="150" height="150">
+                        <div class="card-body">
+                            <button type="submit" onclick="location='https://localhost:44348/QSomos/QSomos'">Sucursales</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="formAbono">
+                        <form>
+                            <p>Buscar: <input type="text" name="buscar" size="40"></p>
+                            <p>ESPACIO RESERVADO LLENADO DE LA TABLA SEGUN CONSULTA</p>
+                            <p>DPI: <input type="text" name="dpi" size="40"></p>
+                            <p>Fecha de Nacimiento: <input type="date" name="fechaNacimiento" size="40"></p>
+                            <p>Nombre: <input type="text" name="nombre" size="40"></p>
+                            <p>Dirección: <input type="text" name="direccion" size="40"></p>
+                            <p>Telefono: <input type="text" name="telefono" size="40"></p>
+                            <p>Correo: <input type="text" name="correo" size="40"></p>
+                            <p><img src="~/imagenes/img_global/print.png"><input type="button" value="Imprimir Formulario"></p>
+                            <p><img src="~/imagenes/img_global/edit.png"><input type="button" value="Actualizar Datos"></p>
+                            <p><img src="~/imagenes/img_global/save.png"><input type="button" value="Guardar"></p>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="pbx">
+                    <h2><img src="/imagenes/pbx.png" /> PBX +502 2200-2200</h2>
+                </div>
+                <div class="wha">
+
+                    <h2> <img src="/imagenes/what.png" width="70" />+502 5190-2020</h2>
+                </div>
+
+            </div>
+
+        </body>
+    </html>
+
