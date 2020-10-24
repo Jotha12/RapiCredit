@@ -220,6 +220,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="imagenes\2701088-128.png" />
     <Content Include="imagenes\acerca de nostros.png" />
+    <Content Include="imagenes\ampliar creditoa alexis.jpg" />
+    <Content Include="imagenes\ampliar creditob alexis.png" />
     <Content Include="imagenes\graduandos.jpg" />
     <Content Include="imagenes\login.png" />
     <Content Include="imagenes\LOGO4.png" />
@@ -229,6 +231,7 @@
     <Content Include="imagenes\solicitud.png" />
     <Content Include="imagenes\sucursales %282%29.png" />
     <Content Include="imagenes\unnamed.png" />
+    <Content Include="imagenes\usuarios alexis.jpg" />
     <Content Include="imagenes\vivienda.jpg" />
     <Content Include="imagenes\what.png" />
     <Content Include="Scripts\bootstrap.js" />
