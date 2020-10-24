@@ -171,6 +171,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\EjVentasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
@@ -222,12 +223,16 @@
     <Content Include="imagenes\acerca de nostros.png" />
     <Content Include="imagenes\ampliar creditoa alexis.jpg" />
     <Content Include="imagenes\ampliar creditob alexis.png" />
+    <Content Include="imagenes\clientesa alexis.png" />
     <Content Include="imagenes\graduandos.jpg" />
     <Content Include="imagenes\login.png" />
     <Content Include="imagenes\LOGO4.png" />
     <Content Include="imagenes\mision.png" />
     <Content Include="imagenes\pbx.png" />
+    <Content Include="imagenes\precalificaciona alexis.png" />
     <Content Include="imagenes\prestamos.png" />
+    <Content Include="imagenes\segimiento alexis.jpg" />
+    <Content Include="imagenes\solicitud,alexis.png" />
     <Content Include="imagenes\solicitud.png" />
     <Content Include="imagenes\sucursales %282%29.png" />
     <Content Include="imagenes\unnamed.png" />
@@ -289,6 +294,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Cliente\Cliente.cshtml" />
+    <Content Include="Views\EjVentas\Ejventas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
