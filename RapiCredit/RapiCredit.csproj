@@ -169,7 +169,10 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AbonoController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdministradorController.cs" />
+    <Compile Include="Controllers\AutorizacionDePrestamoController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\EjVentasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -199,6 +202,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Abono\abono_css.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -225,6 +229,10 @@
     <Content Include="imagenes\ampliar creditob alexis.png" />
     <Content Include="imagenes\clientesa alexis.png" />
     <Content Include="imagenes\graduandos.jpg" />
+    <Content Include="imagenes\img_global\crear.png" />
+    <Content Include="imagenes\img_global\edit.png" />
+    <Content Include="imagenes\img_global\print.png" />
+    <Content Include="imagenes\img_global\save.png" />
     <Content Include="imagenes\login.png" />
     <Content Include="imagenes\LOGO4.png" />
     <Content Include="imagenes\mision.png" />
@@ -295,9 +303,12 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Cliente\Cliente.cshtml" />
     <Content Include="Views\EjVentas\Ejventas.cshtml" />
+    <Content Include="Views\Abono\Abono.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Administrador\" />
+    <Folder Include="Views\AutoriazacionDePrestamo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
