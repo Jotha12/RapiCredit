@@ -203,6 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Abono\abono_css.css" />
+    <Content Include="Content\AutorizacionDePrestamo\AutorizacionDePrestamo.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -304,11 +305,11 @@
     <Content Include="Views\Cliente\Cliente.cshtml" />
     <Content Include="Views\EjVentas\Ejventas.cshtml" />
     <Content Include="Views\Abono\Abono.cshtml" />
+    <Content Include="Views\AutorizacionDePrestamo\AutorizacionDePrestamo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Administrador\" />
-    <Folder Include="Views\AutoriazacionDePrestamo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
