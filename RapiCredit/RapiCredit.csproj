@@ -178,6 +178,7 @@
     <Compile Include="Controllers\EjVentasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NSolicitudController.cs" />
     <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -315,6 +316,7 @@
     <Content Include="Views\Solicitud\Solicitud.cshtml" />
     <Content Include="Views\Home\Administrado.cshtml" />
     <Content Include="Views\Administrador\Administrador.cshtml" />
+    <Content Include="Views\NSolicitud\NSolicitud.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
