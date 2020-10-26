@@ -180,6 +180,9 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NSolicitudController.cs" />
     <Compile Include="Controllers\PrestamoAgroController.cs" />
+    <Compile Include="Controllers\PrestamoAmpliarController.cs" />
+    <Compile Include="Controllers\PrestamoEducativoController.cs" />
+    <Compile Include="Controllers\PrestamoInicioController.cs" />
     <Compile Include="Controllers\PrestamosController.cs" />
     <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
@@ -252,6 +255,9 @@
     <Content Include="imagenes\negocio alexis.jpeg" />
     <Content Include="imagenes\pbx.png" />
     <Content Include="imagenes\Pre Agropecuario alexis.jpeg" />
+    <Content Include="imagenes\Pre Educativo alexis.jpeg" />
+    <Content Include="imagenes\pre inicio alexis.jpeg" />
+    <Content Include="imagenes\Pre negocio alexis.jpeg" />
     <Content Include="imagenes\precalificaciona alexis.png" />
     <Content Include="imagenes\prestamos.png" />
     <Content Include="imagenes\segimiento alexis.jpg" />
@@ -328,6 +334,9 @@
     <Content Include="Views\NSolicitud\NSolicitud.cshtml" />
     <Content Include="Views\Prestamos\Prestamos.cshtml" />
     <Content Include="Views\PrestamoAgro\PrestamoAgro.cshtml" />
+    <Content Include="Views\PrestamoInicio\PrestamoInicio.cshtml" />
+    <Content Include="Views\PrestamoAmpliar\PrestamoAmpliar.cshtml" />
+    <Content Include="Views\PrestamoEducativo\PrestamoEducativo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
