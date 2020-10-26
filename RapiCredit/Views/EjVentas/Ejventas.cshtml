@@ -3,112 +3,96 @@
     ViewBag.Title = "Ejventas";
 }
 
+<!DOCTYPE html>
+
+
 
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="~/css/Principal.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-    <meta name="viewport" content="width=device-width" />
-
-    <link href="~/css/QSomos.css" rel="stylesheet" type="text/css" />
+    <title>Ejecutivo de Ventas</title>
+    <link href="~/Content/ejecutivo.css" rel="stylesheet" type="text/css" />
+   
 </head>
+
 <body>
+    <br />
+    <h2>Ejecutivo de Ventas</h2>
+    <hr />
 
-    <div class="cont">
-        <header class="titulo">
-
-            <h1>
-                
-                &nbsp; &nbsp; &nbsp; Ejecutivo de Ventas
-            </h1>
-        </header>
-
-
-    </div>
     <div class="cuadro">
-        <div class="txt">
-            <p>
+        <div class="ampliar_credito">
+            <div class="imgv">
+                <img style="position: absolute; top: 175px; left: 325px; " src="~/imagenes/ampliar creditob alexis.png" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 350px; left: 310px; " type="submit" onclick="location=">Ampliar Credito</button>
+                </div>
+            </div>
         </div>
-        <div class="card-group">
-            <div class="card">
-                <center><img src="~/imagenes/ampliar creditob alexis.png" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Ampliar Credito</button></center>
-
+        <div class="estado_prestamo">
+            <div class="imgm">
+                <img style="position: absolute; top: 175px; left: 775px; " src="~/imagenes/ampliar creditoa alexis.jpg" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 350px; left: 740px; " type="submit" onclick="location=">Estado de Préstamo</button>
                 </div>
             </div>
-            <div class="card">
-                <center><img src="~/imagenes/ampliar creditoa alexis.jpg" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Estado de Préstamo</button></center>
-                </div>
-            </div>
-            <div class="card">
-                <center><img src="~/imagenes/usuarios alexis.jpg" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Editar Perfil</button></center>
-                </div>
-
-            </div>
-
         </div>
-        <div class="card-group">
-            <div class="card">
-                <center><img src="~/imagenes/solicitud,alexis.png" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Ampliar Nueva Solicitud</button></center>
-
+        <div class="Editar_perfil">
+            <div class="imgm">
+                <img style="position: absolute; top: 175px; left: 1200px; " src="~/imagenes/usuarios alexis.jpg" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 350px; left: 1200px; " type="submit" onclick="location=">Editar Perfil</button>
                 </div>
             </div>
-            <div class="card">
-                <center><img src="~/imagenes/precalificaciona alexis.png" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Precalificación</button></center>
-                </div>
-            </div>
-            <div class="card">
-                <center><img src="~/imagenes/clientesa alexis.png" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Clientes</button></center>
-                </div>
-
-            </div>
-
         </div>
-        <div class="card-group">
-            <div class="card">
-                <center><img src="~/imagenes/segimiento alexis.jpg" class="img-thumbnail" width="150" height="150"></center>
-                <div class="card-body">
-                    <center><button type="submit">Seguimiento a Credito</button></center>
+        <div class="ampliar_credito_Solicitud">
+            <div class="imgv">
+                <img style="position: absolute; top: 450px; left: 325px; " src="~/imagenes/solicitud,alexis.png" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 600px; left: 310px; " type="submit" onclick="location=">Ampliar Nueva Solicitud </button>
                 </div>
-
             </div>
-
         </div>
-        <br />
-        <button style="float: right;" type="submit">Regresar</button>
-        <br />
-        <br />
-        <br />
+        <div class="Precalificacion">
+            <div class="imgm">
+                <img style="position: absolute; top: 450px; left: 775px; " src="~/imagenes/precalificaciona alexis.png" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 600px; left: 775px; " type="submit" onclick="location=">Precalificación</button>
+                </div>
+            </div>
+        </div>
+        <div class="clientes">
+            <div class="imgm">
+                <img style="position: absolute; top: 450px; left: 1200px; " src="~/imagenes/clientesa alexis.png" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 600px; left: 1210px; " type="submit" onclick="location=">Clientes</button>
+                </div>
+            </div>
+        </div>
+        <div class="seguimiento">
+            <div class="imgm">
+                <img style="position: absolute; top: 700px; left: 775px; " src="~/imagenes/segimiento alexis.jpg" alt="MDN" width="150" height="150">
+                <div>
+                    <button style="position: absolute; top: 870px; left: 740px; " type="submit" onclick="location=">Seguimiento a credito</button>
+                </div>
+            </div>
+        </div>
 
 
 
     </div>
+
     <div class="pbx">
-        <h2 style="float: left;"> PBX +502 2200-2200   </h2>
-        <h2 style="float: right;"> +502 5190-2020</h2>
+        <h2><img src="~/imagenes/pbx.png" /> PBX +502 2200-2200</h2>
     </div>
+    <div class="wha">
 
-
-
+        <h2> <img src="~/imagenes/what.png" width="70" />+502 5190-2020</h2>
+    </div>
 </body>
 </html>
+
 
 
 

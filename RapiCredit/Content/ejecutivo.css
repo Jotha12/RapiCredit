@@ -1,0 +1,96 @@
+﻿h2{
+    text-align:center;
+}
+.cuadro{
+    height:770px;
+    width:1150px;
+    background-size:auto;
+    background-color:azure;
+    border-radius:15px;
+}
+.wha {
+    float: right;
+}
+
+.pbx {
+    float: left;
+}
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgb(10, 10, 70), rgb(36, 43, 194),#205bb7);
+    color: white;
+}
+.img1{
+    border-radius:25px;
+    padding:10px;
+    width:200px;
+    
+}
+
+.titulo {
+    text-align: center;
+}
+
+.cont {
+    width: 95%;
+    max-width: 1900px;
+    margin: 20px auto;
+}
+
+.cuadro {
+    background-color: white;
+    border-radius:20px;
+}
+button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 0px solid #273698;
+    border-radius: 6px;
+    background: #0924ba;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0924ba), to(#090e2e));
+    background: -moz-linear-gradient(top, #0924ba, #090e2e);
+    background: linear-gradient(to bottom, #0924ba, #090e2e);
+    -webkit-box-shadow: #000000 -3px -3px 25px 10px;
+    -moz-box-shadow: #000000 -3px -3px 25px 10px;
+    box-shadow: #000000 -3px -3px 25px 10px;
+    text-shadow: #17205a 1px 1px 1px;
+    font: normal normal normal 20px georgia;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover,
+button:focus {
+    border: 0px solid #2e40b3;
+    background: #0b2bdf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0b2bdf), to(#0b1137));
+    background: -moz-linear-gradient(top, #0b2bdf, #0b1137);
+    background: linear-gradient(to bottom, #0b2bdf, #0b1137);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:active {
+    background: #051670;
+    background: -webkit-gradient(linear, left top, left bottom, from(#051670), to(#090e2e));
+    background: -moz-linear-gradient(top, #051670, #090e2e);
+    background: linear-gradient(to bottom, #051670, #090e2e);
+}
+.card1, .card2, .card3, .card4, .card5 {
+    float: left;
+    margin-top:40px;
+    padding:10px;
+}
+.wha{
+    float:right;
+}
+.pbx{
+    float:left;
+}

@@ -179,6 +179,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NSolicitudController.cs" />
+    <Compile Include="Controllers\PrestamoAgroController.cs" />
+    <Compile Include="Controllers\PrestamosController.cs" />
     <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -234,7 +236,10 @@
     <Content Include="imagenes\acerca de nostros.png" />
     <Content Include="imagenes\ampliar creditoa alexis.jpg" />
     <Content Include="imagenes\ampliar creditob alexis.png" />
+    <Content Include="imagenes\ampliar negocio alexis.jpeg" />
+    <Content Include="imagenes\apropecuario alexis.jpeg" />
     <Content Include="imagenes\clientesa alexis.png" />
+    <Content Include="imagenes\educativo alexis.jpeg" />
     <Content Include="imagenes\graduandos.jpg" />
     <Content Include="imagenes\img_global\crear.png" />
     <Content Include="imagenes\img_global\edit.png" />
@@ -243,7 +248,10 @@
     <Content Include="imagenes\login.png" />
     <Content Include="imagenes\LOGO4.png" />
     <Content Include="imagenes\mision.png" />
+    <Content Include="imagenes\modificarb alexis.png" />
+    <Content Include="imagenes\negocio alexis.jpeg" />
     <Content Include="imagenes\pbx.png" />
+    <Content Include="imagenes\Pre Agropecuario alexis.jpeg" />
     <Content Include="imagenes\precalificaciona alexis.png" />
     <Content Include="imagenes\prestamos.png" />
     <Content Include="imagenes\segimiento alexis.jpg" />
@@ -252,6 +260,7 @@
     <Content Include="imagenes\sucursales %282%29.png" />
     <Content Include="imagenes\unnamed.png" />
     <Content Include="imagenes\usuarios alexis.jpg" />
+    <Content Include="imagenes\vivienda alexis.jpeg" />
     <Content Include="imagenes\vivienda.jpg" />
     <Content Include="imagenes\what.png" />
     <Content Include="Scripts\bootstrap.js" />
@@ -317,6 +326,8 @@
     <Content Include="Views\Home\Administrado.cshtml" />
     <Content Include="Views\Administrador\Administrador.cshtml" />
     <Content Include="Views\NSolicitud\NSolicitud.cshtml" />
+    <Content Include="Views\Prestamos\Prestamos.cshtml" />
+    <Content Include="Views\PrestamoAgro\PrestamoAgro.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
