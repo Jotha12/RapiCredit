@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "CrearCuentaCliente";
+    ViewBag.Title = "EditarCuentaCliente";
 }
 
 <!DOCTYPE html>
@@ -8,17 +8,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Crear Cuenta Cliente</title>
+    <title>Editar Cuenta Cliente</title>
     <link href="/Content/index.css" rel="stylesheet" type="text/css" />
     <link href="/Content/bootstrap.css" rel="stylesheet" />
     <link href="/Content/site.css" rel="stylesheet" />
-    <link href="~/Content/CrearCuentaCliente/CrearCuentaCliente.css" rel="stylesheet" />
+    <link href="~/Content/EditarCuentaCliente/EditarCuentaCliente.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="cont">
         <header class="titulo">
-            <h1>Crear Cuenta Cliente</h1>
+            <h1>Editar Cuenta Cliente</h1>
         </header>
         <hr />
 
@@ -26,15 +26,17 @@
 
             <div class="formAbono">
                 <form>
-                    <p>Buscar: <input type="text" name="buscar" size="40"></p>
-                    <p>ESPACIO RESERVADO LLENADO DE LA TABLA SEGUN CONSULTA</p>
+                    <h1><p>Datos De Acceso</p></h1>
+                    <p>Usuario <input type="text" name="usuario" size="40"></p>
+                    <p>Contraseña <input type="text" name="password" size="40"></p>
+                    <p>Verificar Contraseña <input type="text" name="verificatePassword" size="40"></p>
+                    <h1><p>Datos Personales</p></h1>
                     <p>DPI: <input type="text" name="dpi" size="40"></p>
                     <p>Fecha de Nacimiento: <input type="date" name="fechaNacimiento" size="40"></p>
                     <p>Nombre: <input type="text" name="nombre" size="40"></p>
                     <p>Dirección: <input type="text" name="direccion" size="40"></p>
                     <p>Telefono: <input type="text" name="telefono" size="40"></p>
                     <p>Correo: <input type="text" name="correo" size="40"></p>
-                    <p><img src="~/imagenes/img_global/print.png"><input type="button" value="Imprimir Formulario"></p>
                     <p><img src="~/imagenes/img_global/edit.png"><input type="button" value="Actualizar Datos"></p>
                     <p><img src="~/imagenes/img_global/save.png"><input type="button" value="Guardar"></p>
                 </form>

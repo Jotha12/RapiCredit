@@ -175,6 +175,8 @@
     <Compile Include="Controllers\AutorizacionDePrestamoController.cs" />
     <Compile Include="Controllers\ClienteController.cs" />
     <Compile Include="Controllers\CrearCuentaClienteController.cs" />
+    <Compile Include="Controllers\CuentaController.cs" />
+    <Compile Include="Controllers\EditarCuentaClienteController.cs" />
     <Compile Include="Controllers\EjVentasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -212,12 +214,15 @@
   <ItemGroup>
     <Content Include="Content\Abono\abono_css.css" />
     <Content Include="Content\Admin.css" />
+    <Content Include="Content\Administrador\Administrador.css" />
     <Content Include="Content\AutorizacionDePrestamo\AutorizacionDePrestamo.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CrearCuentaCliente\CrearCuentaCliente.css" />
+    <Content Include="Content\Cuenta\Cuenta.css" />
+    <Content Include="Content\EditarCuentaCliente\EditarCuentaCliente.css" />
     <Content Include="Content\index.css" />
     <Content Include="Content\QSomos.css" />
     <Content Include="Content\solicitud.css" />
@@ -237,6 +242,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="imagenes\2701088-128.png" />
     <Content Include="imagenes\acerca de nostros.png" />
+    <Content Include="imagenes\Administrador\icon1.jpg" />
+    <Content Include="imagenes\Administrador\icon2.jpg" />
+    <Content Include="imagenes\Administrador\icon3.jpg" />
+    <Content Include="imagenes\Administrador\icon4.jpg" />
     <Content Include="imagenes\ampliar creditoa alexis.jpg" />
     <Content Include="imagenes\ampliar creditob alexis.png" />
     <Content Include="imagenes\ampliar negocio alexis.jpeg" />
@@ -337,6 +346,8 @@
     <Content Include="Views\PrestamoInicio\PrestamoInicio.cshtml" />
     <Content Include="Views\PrestamoAmpliar\PrestamoAmpliar.cshtml" />
     <Content Include="Views\PrestamoEducativo\PrestamoEducativo.cshtml" />
+    <Content Include="Views\Cuenta\Cuenta.cshtml" />
+    <Content Include="Views\EditarCuentaCliente\EditarCuentaCliente.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

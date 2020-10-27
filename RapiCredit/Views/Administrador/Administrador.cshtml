@@ -3,33 +3,63 @@
     ViewBag.Title = "Administrador";
 }
 
-<h2>Administrador</h2>
-
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Principal</title>
-    <link href="~/Content/Admin.css" rel="stylesheet" type="text/css" />
+    <title>Administrador</title>
+    <link href="/Content/index.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/site.css" rel="stylesheet" />
+    <link href="~/Content/Administrador/Administrador.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="conte">
+    <div class="cont">
+        <header class="titulo">
+            <h1>Administrador</h1>
+        </header>
+        <hr />
 
-        <div class="btn">
-            <div class="reg">
-                <img src="~/imagenes/2701088-128.png" class="img-thumbnail" width="150" height="150">
-                <div>
-                    <button>@Html.ActionLink("Registrar Usuarios", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</button>
+        <div class="cuadro">
+            <div class="container">
+                <div class="container_top">
+                    <div class="div_img1">
+                        <p>
+                            <img src="~/imagenes/Administrador/icon1.jpg"><button>Abono</button>
+                        </p>
+                    </div>
+                    <div class="div_img2">
+                        <p>
+                            <img src="~/imagenes/Administrador/icon2.jpg"><button>@Html.ActionLink("Registrar Usuarios", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</button>
+                        </p>
+                    </div>
+                    <div class="div_img3">
+                        <p>
+                            <img src="~/imagenes/Administrador/icon3.jpg"><button>Editar Usuario</button>
+                        </p>
+                    </div>
                 </div>
-                
+                <div class="container_bottom">
+                    <div class="div_img4">
+                        <p>
+                            <img src="~/imagenes/Administrador/icon4.jpg"><button>Autorizar Prestamo</button>
+                        </p>
+                    </div>
+                </div>
             </div>
-           
-        </div>
-        
-    </div>
 
+        </div>
+        <div class="pbx">
+            <h2><img src="/imagenes/pbx.png" /> PBX +502 2200-2200</h2>
+        </div>
+        <div class="wha">
+            s
+            <h2> <img src="/imagenes/what.png" width="70" />+502 5190-2020</h2>
+        </div>
+
+    </div>
 
 </body>
 </html>
