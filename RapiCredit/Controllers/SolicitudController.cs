@@ -25,6 +25,14 @@ namespace RapiCredit.Controllers
                                PrimerApellido = d.PrimerApellido,
                                SegundoApellido = d.SegundoApellido,
                                DPI = d.DPI,
+                             
+                               Telefono = d.Telefono,
+                               Correo =d.Correo,
+                             
+
+
+
+
 
 
 

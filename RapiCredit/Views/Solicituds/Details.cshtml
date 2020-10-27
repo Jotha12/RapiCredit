@@ -1,0 +1,130 @@
+﻿@model RapiCredit.Models.Solicitud
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Solicitud</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IdPrestamo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdPrestamo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdCliente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimerNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimerNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SegundoNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SegundoNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimerApellido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimerApellido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SegundoApellido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SegundoApellido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DPI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DPI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaNacimiento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaNacimiento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefono)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Correo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Correo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Monto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Monto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cuotas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cuotas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaSolicitud)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaSolicitud)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

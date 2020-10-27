@@ -16,11 +16,11 @@ namespace RapiCredit.Models.ViewModels
         public string PrimerApellido { get; set; }
         public string SegundoApellido { get; set; }
         public string DPI { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public int Telefono { get; set; }
+        public string FechaNacimiento { get; set; }
+        public string Telefono { get; set; }
         public string Correo { get; set; }
-        public int Monto { get; set; }
-        public int Cuotas { get; set; }
+        public string Monto { get; set; }
+        public string Cuotas { get; set; }
 
 
 

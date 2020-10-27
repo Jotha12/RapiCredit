@@ -187,6 +187,7 @@
     <Compile Include="Controllers\PrestamoInicioController.cs" />
     <Compile Include="Controllers\PrestamosController.cs" />
     <Compile Include="Controllers\SolicitudController.cs" />
+    <Compile Include="Controllers\SolicitudsController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -426,6 +427,11 @@
     <Content Include="Views\Cuenta\Cuenta.cshtml" />
     <Content Include="Views\EditarCuentaCliente\EditarCuentaCliente.cshtml" />
     <Content Include="Views\Solicitud\Solicitud.cshtml" />
+    <Content Include="Views\Solicituds\Create.cshtml" />
+    <Content Include="Views\Solicituds\Delete.cshtml" />
+    <Content Include="Views\Solicituds\Details.cshtml" />
+    <Content Include="Views\Solicituds\Edit.cshtml" />
+    <Content Include="Views\Solicituds\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
