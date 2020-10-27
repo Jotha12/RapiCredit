@@ -59,3 +59,23 @@ section .container_top {
         width: 100%;
         height: 70%;
     }
+
+.container_bottom {
+    width: 100%;
+    height: 50%;
+}
+
+    .container_bottom .div_img4 {
+        margin-left: 35%;
+        float: center;
+        display: flex;
+        text-align: center;
+        width: 29%;
+        height: 100%;
+    }
+
+        .container_bottom .div_img4 img {
+            padding: 1%;
+            width: 100%;
+            height: 70%;
+        }
