@@ -304,6 +304,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="imagenes\2701088-128.png" />
     <Content Include="imagenes\acerca de nostros.png" />
+    <Content Include="imagenes\Administrador\abono.png" />
+    <Content Include="imagenes\Administrador\concedido.png" />
+    <Content Include="imagenes\Administrador\crear.png" />
+    <Content Include="imagenes\Administrador\edit.png" />
     <Content Include="imagenes\Administrador\icon1.jpg" />
     <Content Include="imagenes\Administrador\icon2.jpg" />
     <Content Include="imagenes\Administrador\icon3.jpg" />
