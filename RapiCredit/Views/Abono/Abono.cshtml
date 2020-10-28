@@ -25,16 +25,20 @@
         <div class="cuadro">
 
             <div class="formAbono">
-                <form>
-                    <p>No. Préstamo: <input type="text" name="no_prestamo" size="40"></p>
-                    <p>DPI: <input type="text" name="dpi" size="40"></p>
-                    <p>Nombre: <input type="text" name="nombre" size="40"></p>
-                    <p>Cuota: <input type="text" name="cuota" size="40"></p>
-                    <p>Saldo: <input type="text" name="saldo" size="40"></p>
-                    <p>Para poder realiza abono a capital debe cancelar el 30% del saldo actual</p>
-                    <p>Pago: <input type="text" name="pago" size="40"></p>
-                    <p>Habilitar pago a capital <input type="checkbox" name="nombre" size="40"></p>
-                    <p><img src="~/imagenes/img_global/save.png"><input type="button" value="Guardar"></p>
+                <form method="post">
+                    <div>
+                        <p>No. Préstamo: <input type="text" name="no_prestamo" size="40"></p>
+                        <p>DPI: <input type="text" name="dpi" size="40"></p>
+                        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+                        <p>Cuota: <input type="text" name="cuota" size="40"></p>
+                        <p>Saldo: <input type="text" name="saldo" size="40"></p>
+                        <p>Para poder realiza abono a capital debe cancelar el 30% del saldo actual</p>
+                        <p>Pago: <input type="text" name="pago" size="40"></p>
+                        <p>Habilitar pago a capital <input type="checkbox" name="nombre" size="40"></p>
+                    </div>
+                    <div>
+                        <p><img src="~/imagenes/img_global/save.png"><input type="button" value="Guardar"></p>
+                    </div>
                 </form>
             </div>
 

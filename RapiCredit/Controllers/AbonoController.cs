@@ -13,5 +13,12 @@ namespace RapiCredit.Controllers
         {
             return View();
         }
+
+        // POST: Abono
+        [HttpPost]
+        public ActionResult Abono(double noPrestamo, double dpi, string nombre, float cuota)
+        {
+            return View();
+        }
     }
 }
