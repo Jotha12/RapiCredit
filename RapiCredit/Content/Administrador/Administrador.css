@@ -67,7 +67,7 @@ section .container_top {
 
     .container_bottom .div_img4 {
         margin-left: 35%;
-        float: center;
+        /*float: center;*/
         display: flex;
         text-align: center;
         width: 29%;

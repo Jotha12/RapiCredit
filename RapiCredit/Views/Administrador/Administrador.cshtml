@@ -27,24 +27,24 @@
                 <div class="container_top">
                     <div class="div_img1">
                         <p>
-                            <img src="~/imagenes/Administrador/abono.png"><button>Abono</button>
+                            <img src="~/imagenes/Administrador/abono.png" onclick="location='http://localhost:55668/Abono/Abono'"><button>@Html.ActionLink("Abono", "Abono", "Abono", routeValues: null, htmlAttributes: new { id = "abonoLink" })</button>
                         </p>
                     </div>
                     <div class="div_img2">
                         <p>
-                            <img src="~/imagenes/Administrador/concedido.png"><button>@Html.ActionLink("Registrar Usuarios", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</button>
+                            <img src="~/imagenes/Administrador/crear.png" onclick="location='http://localhost:55668/CrearCuentaCliente/CrearCuentaCliente'"><button>@Html.ActionLink("Crear Cuenta Cliente", "CrearCuentaCliente", "CrearCuentaCliente", routeValues: null, htmlAttributes: new { id = "crearCuentaClienteLink" })</button>
                         </p>
                     </div>
                     <div class="div_img3">
                         <p>
-                            <img src="~/imagenes/Administrador/edit.png"><button>Editar Usuario</button>
+                            <img src="~/imagenes/Administrador/edit.png" onclick="location='http://localhost:55668/EditarCuentaCliente/EditarCuentaCliente'"><button>@Html.ActionLink("Editar Usuario", "EditarCuentaCliente", "EditarCuentaCliente", routeValues: null, htmlAttributes: new { id = "editarCuentaClienteLink" })</button>
                         </p>
                     </div>
                 </div>
                 <div class="container_bottom">
                     <div class="div_img4">
                         <p>
-                            <img src="~/imagenes/Administrador/concedido.png"><button>Autorizar Prestamo</button>
+                            <img src="~/imagenes/Administrador/concedido.png" onclick="location='http://localhost:55668/AutorizacionDePrestamo/AutorizacionDePrestamo'"><button>@Html.ActionLink("Autorizar Prestamo", "AutorizacionDePrestamo", "AutorizacionDePrestamo", routeValues: null, htmlAttributes: new { id = "autorizacionDePrestamoLink" })</button>
                         </p>
                     </div>
                 </div>
@@ -55,7 +55,6 @@
             <h2><img src="/imagenes/pbx.png" /> PBX +502 2200-2200</h2>
         </div>
         <div class="wha">
-            s
             <h2> <img src="/imagenes/what.png" width="70" />+502 5190-2020</h2>
         </div>
 
