@@ -190,6 +190,7 @@
     <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Controllers\SolicitudsController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
+    <Compile Include="Controllers\UsuariosLoginController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -444,6 +445,11 @@
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
     <Content Include="Views\Usuarios\Usuarios.cshtml" />
+    <Content Include="Views\UsuariosLogin\Create.cshtml" />
+    <Content Include="Views\UsuariosLogin\Delete.cshtml" />
+    <Content Include="Views\UsuariosLogin\Details.cshtml" />
+    <Content Include="Views\UsuariosLogin\Edit.cshtml" />
+    <Content Include="Views\UsuariosLogin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

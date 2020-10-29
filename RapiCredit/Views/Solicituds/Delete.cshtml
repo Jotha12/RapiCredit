@@ -5,11 +5,22 @@
 }
 
 <h2>Borrar Usuario</h2>
+<hr />
 
 <h3>¿Estás seguro de que quieres eliminar esto?</h3>
-<div>
+<style>
+    .cua {
+        width: auto;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px;
+    }
+</style>
+<div class="cua">
     
-    <hr />
+    
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.IdPrestamo)
@@ -128,9 +139,9 @@
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
-        <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Volver a la lista", "Index")
-        </div>
+    <div class="form-actions no-color">
+
+        @Html.ActionLink("Volver a la lista", "Index") | <input type="submit" value="Borrar" class="btn btn-default" />
+    </div>
     }
 </div>

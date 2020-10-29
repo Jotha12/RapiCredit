@@ -4,11 +4,25 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Detalles del Cliente</h2>
+<h4>Cliente</h4>
+<hr />
+<style>
+    .cua {
+        width: auto;
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px;
+    }
 
-<div>
-    <h4>Cliente</h4>
-    <hr />
+
+    
+</style>
+
+<div class="cua">
+
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.DPI)
@@ -99,8 +113,9 @@
         </dd>
 
     </dl>
+
+    <p>
+        @Html.ActionLink("Editar", "Edit", new { id = Model.ID }) |
+        @Html.ActionLink("Volver a la Lista", "Index")
+    </p>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
