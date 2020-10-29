@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    
+    <link href="~/Content/solicitud.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h2>Usuarios</h2>
+    <hr />
+    <div class="cuadro">
+        <div class="cliente">
+            <button type="submit" onclick="location='http://localhost:55668/Cliente/Cliente'">cliente</button>
+        </div>
+        <div class="ejventas">
+            <button type="submit" onclick="location='http://localhost:55668/EjVentas/EjVentas'">ejecutivo</button>
+        </div>
+        <div class="admin">
+            <button type="submit" onclick="location='http://localhost:55668/Administrador/Administrador'">Administrador</button>
+        </div>
+
+
+
+
+    </div>
+    <div class="pbx">
+        <h2><img src="~/imagenes/pbx.png" /> PBX +502 2200-2200</h2>
+    </div>
+    <div class="wha">
+
+        <h2> <img src="~/imagenes/what.png" width="70" />+502 5190-2020</h2>
+    </div>
+</body>
+</html>
