@@ -1,0 +1,108 @@
+﻿@model IEnumerable<RapiCredit.Models.TransaccionPrestamo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Transaciones a Préstamos</h2>
+<style>
+   
+    .cua {
+        margin: 10px;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+    }
+</style>
+
+<button>
+    @Html.ActionLink("Agregar Abono", "Create")
+</button>
+<div class="cua">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdPrestamo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoCuota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoCapital)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoInteres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoMora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Capital)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EsCuota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdSucursal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdEmpleado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaVencimiento)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdPrestamo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NoCuota)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MontoCapital)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MontoInteres)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MontoMora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Capital)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EsCuota)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaPago)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdSucursal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdEmpleado)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaVencimiento)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.ID }) 
+                    @Html.ActionLink("Detalles", "Details", new { id = item.ID }) 
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

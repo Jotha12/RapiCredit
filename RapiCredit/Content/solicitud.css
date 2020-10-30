@@ -8,11 +8,11 @@ h2 {
 }
 
 .cuadro {
-    margin: 20px;
+    margin: auto;
     padding: 20px;
-    height: 1000px;
-    width: 1150px;
-    background-size: auto;
+    height: 900px;
+    width: 1200px;
+   
     background-color: azure;
     border-radius: 15px;
 }
@@ -71,3 +71,8 @@ button {
         background: linear-gradient(to bottom, #051670, #090e2e);
     }
 
+.card1, .card2, .card3, .card4, .card5, .cliente, .ejventas, .admin {
+    float: left;
+    margin-top: 40px;
+    padding: 10px;
+}

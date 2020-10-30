@@ -190,6 +190,7 @@
     <Compile Include="Controllers\PrestamosController.cs" />
     <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Controllers\SolicitudsController.cs" />
+    <Compile Include="Controllers\TransaccionPrestamoesController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Controllers\UsuariosLoginController.cs" />
     <Compile Include="Datos\Model1.Context.cs">
@@ -453,6 +454,11 @@
     <Content Include="Views\UsuariosLogin\Edit.cshtml" />
     <Content Include="Views\UsuariosLogin\Index.cshtml" />
     <Content Include="Views\PrestamoMejora\PrestamoMejora.cshtml" />
+    <Content Include="Views\TransaccionPrestamoes\Create.cshtml" />
+    <Content Include="Views\TransaccionPrestamoes\Delete.cshtml" />
+    <Content Include="Views\TransaccionPrestamoes\Details.cshtml" />
+    <Content Include="Views\TransaccionPrestamoes\Edit.cshtml" />
+    <Content Include="Views\TransaccionPrestamoes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

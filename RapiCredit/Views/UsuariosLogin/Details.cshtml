@@ -4,11 +4,24 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2>Detalles de Usuarios</h2>
+<hr />
 
-<div>
-    <h4>AspNetUsers</h4>
-    <hr />
+<style>
+    .cua {
+        margin: 20px;
+        padding: 20px;
+        width: 1000px;
+        height: auto;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+    }
+</style>
+
+<div class="cua">
+    
+    
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Email)
@@ -18,7 +31,7 @@
             @Html.DisplayFor(model => model.Email)
         </dd>
 
-        <dt>
+        @*<dt>
             @Html.DisplayNameFor(model => model.EmailConfirmed)
         </dt>
 
@@ -88,7 +101,7 @@
 
         <dd>
             @Html.DisplayFor(model => model.AccessFailedCount)
-        </dd>
+        </dd>*@
 
         <dt>
             @Html.DisplayNameFor(model => model.UserName)
@@ -101,6 +114,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Volver a la lista", "Index")
 </p>
