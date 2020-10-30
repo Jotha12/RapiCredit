@@ -186,6 +186,7 @@
     <Compile Include="Controllers\PrestamoAmpliarController.cs" />
     <Compile Include="Controllers\PrestamoEducativoController.cs" />
     <Compile Include="Controllers\PrestamoInicioController.cs" />
+    <Compile Include="Controllers\PrestamoMejoraController.cs" />
     <Compile Include="Controllers\PrestamosController.cs" />
     <Compile Include="Controllers\SolicitudController.cs" />
     <Compile Include="Controllers\SolicitudsController.cs" />
@@ -335,6 +336,7 @@
     <Content Include="imagenes\Pre Agropecuario alexis.jpeg" />
     <Content Include="imagenes\Pre Educativo alexis.jpeg" />
     <Content Include="imagenes\pre inicio alexis.jpeg" />
+    <Content Include="imagenes\Pre mejora alexis.jpeg" />
     <Content Include="imagenes\Pre negocio alexis.jpeg" />
     <Content Include="imagenes\precalificaciona alexis.png" />
     <Content Include="imagenes\prestamos.png" />
@@ -450,6 +452,7 @@
     <Content Include="Views\UsuariosLogin\Details.cshtml" />
     <Content Include="Views\UsuariosLogin\Edit.cshtml" />
     <Content Include="Views\UsuariosLogin\Index.cshtml" />
+    <Content Include="Views\PrestamoMejora\PrestamoMejora.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
